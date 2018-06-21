@@ -28,7 +28,7 @@ class Board
   end
 
   def []=(pos, value)
-    #debugger
+    # debugger
     x, y = pos
     tile = grid[x][y]
     tile.value = value
